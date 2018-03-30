@@ -76,7 +76,7 @@ def hough_lines(roi):#drawing hough line and approximating lane line
     
         
 
-for index in range(218):
+for index in range(0,100):
     
     filepath = 'video1_captures/capture'+str(index) + '.jpg'
     img = cv2.imread(filepath)
